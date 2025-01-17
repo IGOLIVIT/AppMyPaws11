@@ -25,6 +25,7 @@ final class EventsViewModel: ObservableObject {
     @Published var evDate: Date = Date()
     @Published var evTime: Date = Date()
     @Published var evPetPhoto: String = ""
+    @Published var evDescr: String = ""
 
     @Published var events: [EventModel] = []
     @Published var selectedEvent: EventModel?
@@ -39,6 +40,7 @@ final class EventsViewModel: ObservableObject {
         loan.evDate = evDate
         loan.evTime = evTime
         loan.evPetPhoto = evPetPhoto
+        loan.evDescr = evDescr
 
         CoreDataStack.shared.saveContext()
     }

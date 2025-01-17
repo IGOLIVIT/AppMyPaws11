@@ -26,6 +26,7 @@ final class PetsViewModel: ObservableObject {
     @Published var peDate: Date = Date()
     @Published var peDescr: String = ""
     @Published var pePhoto: String = ""
+    @Published var peBreed: String = ""
 
     @Published var pets: [PetsModel] = []
     @Published var selectedPet: PetsModel?
@@ -41,6 +42,7 @@ final class PetsViewModel: ObservableObject {
         loan.peDate = peDate
         loan.peDescr = peDescr
         loan.pePhoto = pePhoto
+        loan.peBreed = peBreed
 
         CoreDataStack.shared.saveContext()
     }

@@ -133,6 +133,26 @@ struct AddPet: View {
                                 .padding()
                                 .frame(maxWidth: .infinity)
                                 
+                                Text("Breed")
+                                    .foregroundColor(.white)
+                                    .font(.system(size: 15, weight: .regular))
+                                
+                                ZStack(content: {
+                                    
+                                    Text("Enter animal breed")
+                                        .foregroundColor(.gray)
+                                        .font(.system(size: 15, weight: .regular))
+                                        .opacity(viewModel.peBreed.isEmpty ? 1 : 0)
+                                        .frame(maxWidth: .infinity, alignment: .leading)
+                                    
+                                    TextField("", text: $viewModel.peBreed)
+                                        .foregroundColor(Color.white)
+                                        .font(.system(size: 16, weight: .regular))
+                                    
+                                })
+                                .padding()
+                                .frame(maxWidth: .infinity)
+                                
                                 Rectangle()
                                     .fill(.gray.opacity(0.5))
                                     .frame(maxWidth: .infinity)

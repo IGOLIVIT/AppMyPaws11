@@ -2,6 +2,7 @@
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
     <entity name="EventModel" representedClassName="EventModel" syncable="YES" codeGenerationType="class">
         <attribute name="evDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="evDescr" optional="YES" attributeType="String"/>
         <attribute name="evName" optional="YES" attributeType="String"/>
         <attribute name="evPet" optional="YES" attributeType="String"/>
         <attribute name="evPetPhoto" optional="YES" attributeType="String"/>
@@ -9,6 +10,7 @@
     </entity>
     <entity name="PetsModel" representedClassName="PetsModel" syncable="YES" codeGenerationType="class">
         <attribute name="peAnim" optional="YES" attributeType="String"/>
+        <attribute name="peBreed" optional="YES" attributeType="String"/>
         <attribute name="peDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="peDescr" optional="YES" attributeType="String"/>
         <attribute name="peGen" optional="YES" attributeType="String"/>

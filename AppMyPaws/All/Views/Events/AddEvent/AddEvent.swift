@@ -162,6 +162,28 @@ struct AddEvent: View {
                         .padding()
                         .frame(maxWidth: .infinity)
                         .background(RoundedRectangle(cornerRadius: 20).fill(Color("bg2")))
+                        .padding(.bottom)
+                        
+                        Text("Description")
+                            .foregroundColor(.white)
+                            .font(.system(size: 15, weight: .regular))
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                        
+                        ZStack(content: {
+                            
+                            Text("Enter description")
+                                .foregroundColor(.gray)
+                                .font(.system(size: 15, weight: .regular))
+                                .opacity(viewModel.evDescr.isEmpty ? 1 : 0)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                            
+                            TextField("", text: $viewModel.evDescr)
+                                .foregroundColor(Color.white)
+                                .font(.system(size: 16, weight: .regular))
+                            
+                        })
+                        .padding()
+                        .frame(maxWidth: .infinity)
                         .padding(.bottom, 50)
                         
                         Button(action: {

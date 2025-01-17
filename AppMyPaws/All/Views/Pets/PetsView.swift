@@ -91,6 +91,10 @@ struct PetsView: View {
                                                 .foregroundColor(.white)
                                                 .font(.system(size: 17, weight: .regular))
                                             
+                                            Text("\(index.peBreed ?? "")")
+                                                .foregroundColor(.white)
+                                                .font(.system(size: 17, weight: .regular))
+                                            
                                             Text((index.peDate ?? Date()).convertDate(format: "dd.MM.YYYY"))
                                                 .foregroundColor(.white)
                                                 .font(.system(size: 17, weight: .regular))
@@ -100,7 +104,7 @@ struct PetsView: View {
                                                 .font(.system(size: 13, weight: .regular))
                                         }
                                     }
-                                    .padding(4)
+                                    .padding(9)
                                     .frame(maxWidth: .infinity)
                                     .background(RoundedRectangle(cornerRadius: 20).fill(Color("bg2")))
                                 })
