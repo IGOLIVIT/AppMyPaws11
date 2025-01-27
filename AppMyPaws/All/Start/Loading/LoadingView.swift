@@ -17,10 +17,11 @@ struct LoadingView: View {
             
             VStack {
                 
-                Image("logo")
+                Image("nlogo")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 170)
+                    .cornerRadius(20)
             }
             
             VStack {

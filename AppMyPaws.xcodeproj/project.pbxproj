@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		789994032D47E9790013B0C9 /* Wncsp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789994022D47E9790013B0C9 /* Wncsp.swift */; };
+		789994052D47E97F0013B0C9 /* Smvrepp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789994042D47E97F0013B0C9 /* Smvrepp.swift */; };
+		789994072D47E9870013B0C9 /* Dawelc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789994062D47E9870013B0C9 /* Dawelc.swift */; };
+		7899940F2D48033C0013B0C9 /* OBU1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899940E2D48033C0013B0C9 /* OBU1.swift */; };
+		789994112D4808010013B0C9 /* OBU2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789994102D4808010013B0C9 /* OBU2.swift */; };
 		78BFE59E2D3140870081F51F /* AppMyPawsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFE59D2D3140870081F51F /* AppMyPawsApp.swift */; };
 		78BFE5A02D3140870081F51F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFE59F2D3140870081F51F /* ContentView.swift */; };
 		78BFE5A22D3140890081F51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78BFE5A12D3140890081F51F /* Assets.xcassets */; };
@@ -31,6 +36,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		789994022D47E9790013B0C9 /* Wncsp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wncsp.swift; sourceTree = "<group>"; };
+		789994042D47E97F0013B0C9 /* Smvrepp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smvrepp.swift; sourceTree = "<group>"; };
+		789994062D47E9870013B0C9 /* Dawelc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dawelc.swift; sourceTree = "<group>"; };
+		7899940E2D48033C0013B0C9 /* OBU1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBU1.swift; sourceTree = "<group>"; };
+		789994102D4808010013B0C9 /* OBU2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBU2.swift; sourceTree = "<group>"; };
 		78BFE59A2D3140870081F51F /* AppMyPaws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMyPaws.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BFE59D2D3140870081F51F /* AppMyPawsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMyPawsApp.swift; sourceTree = "<group>"; };
 		78BFE59F2D3140870081F51F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7899940D2D4803310013B0C9 /* OBU */ = {
+			isa = PBXGroup;
+			children = (
+				7899940E2D48033C0013B0C9 /* OBU1.swift */,
+				789994102D4808010013B0C9 /* OBU2.swift */,
+			);
+			path = OBU;
+			sourceTree = "<group>";
+		};
 		78BFE5912D3140870081F51F = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +137,7 @@
 		78BFE5AD2D3140FC0081F51F /* Start */ = {
 			isa = PBXGroup;
 			children = (
+				7899940D2D4803310013B0C9 /* OBU */,
 				78BFE5B32D314B920081F51F /* OB */,
 				78BFE5B22D314B8E0081F51F /* Loading */,
 				78BFE5B12D314B8A0081F51F /* Launch */,
@@ -140,6 +160,9 @@
 				78BFE5C62D314BFF0081F51F /* CoreDataStack.swift */,
 				78BFE5C82D314C050081F51F /* Array.swift */,
 				78BFE5CA2D314C140081F51F /* DateConvert.swift */,
+				789994022D47E9790013B0C9 /* Wncsp.swift */,
+				789994042D47E97F0013B0C9 /* Smvrepp.swift */,
+				789994062D47E9870013B0C9 /* Dawelc.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -298,19 +321,24 @@
 				78BFE5D82D31729F0081F51F /* AddPet.swift in Sources */,
 				78BFE5D32D314F6A0081F51F /* EventsViewModel.swift in Sources */,
 				78BFE5CB2D314C140081F51F /* DateConvert.swift in Sources */,
+				789994072D47E9870013B0C9 /* Dawelc.swift in Sources */,
 				78BFE5D12D314F630081F51F /* EventsView.swift in Sources */,
 				78BFE5A02D3140870081F51F /* ContentView.swift in Sources */,
 				78BFE5CF2D314F5C0081F51F /* PetsViewModel.swift in Sources */,
+				789994032D47E9790013B0C9 /* Wncsp.swift in Sources */,
 				78BFE5DB2D317F300081F51F /* AddEvent.swift in Sources */,
 				78BFE5C92D314C050081F51F /* Array.swift in Sources */,
 				78BFE5BD2D314BCE0081F51F /* LoadingView.swift in Sources */,
 				78BFE5CD2D314F550081F51F /* PetsView.swift in Sources */,
+				7899940F2D48033C0013B0C9 /* OBU1.swift in Sources */,
 				78BFE5C32D314BE40081F51F /* OB3.swift in Sources */,
 				78BFE5D52D314F720081F51F /* SettingsView.swift in Sources */,
 				78BFE5C72D314BFF0081F51F /* CoreDataStack.swift in Sources */,
 				78BFE5C52D314BF80081F51F /* TabBar.swift in Sources */,
 				78BFE5BB2D314BC40081F51F /* CoreModel.xcdatamodeld in Sources */,
 				78BFE5C12D314BDB0081F51F /* OB2.swift in Sources */,
+				789994112D4808010013B0C9 /* OBU2.swift in Sources */,
+				789994052D47E97F0013B0C9 /* Smvrepp.swift in Sources */,
 				78BFE59E2D3140870081F51F /* AppMyPawsApp.swift in Sources */,
 				78BFE5BF2D314BD60081F51F /* OB1.swift in Sources */,
 			);
@@ -444,7 +472,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AppMyPaws/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = FurEverCare;
+				INFOPLIST_KEY_CFBundleDisplayName = "FurEverCare: Planner\n";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -460,7 +488,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.AppMyPaws;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -483,7 +511,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AppMyPaws/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = FurEverCare;
+				INFOPLIST_KEY_CFBundleDisplayName = "FurEverCare: Planner\n";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -499,7 +527,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.AppMyPaws;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
